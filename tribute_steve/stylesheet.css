@@ -1,0 +1,139 @@
+
+/* general selectors */
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+:focus {
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(8, 161, 212);
+    border-radius: 3% 50% 3% 50%;
+    padding: 5px 5px;
+}
+
+/* class selector */
+.font {
+    font: bold 1.7em/1.5 papyrus;
+}
+
+.format{
+    text-transform: uppercase;
+}
+
+.tabrow1 {
+    border-top: 2px solid gainsboro;
+}
+
+.tabrm {
+    border-bottom: none;
+}
+
+.td1 {
+    background-color: rgba(220, 220, 220, .2);
+    font-size: 1em;
+}
+
+/* id selectors */
+#hdisp {
+    display: block;
+    background-image: url('images/offwhite_bg.webp');
+    height: 130px;
+    width: 90%;
+    padding: 500px 0 0 0;
+    margin: auto;
+    text-align: center;
+    line-height: 2.5
+}
+
+#event1 {
+    text-align: left;
+    width: 65%;
+    margin: auto;
+    float: left;
+}
+
+#event2 {
+    text-align: center;
+    width: 33%;
+    height: 71.125em;
+    margin-top: auto;
+    float: right;
+    padding-top: 23%;
+}
+
+/* type selectors */
+main {
+    margin: 0 5%;
+}
+
+img {
+    display: block;
+    width: 200px;
+    max-width: 640px 584px;
+    margin: auto;
+}
+
+a {
+    color: white;
+    background-color: #5858e9;
+    border: 1px solid black;
+    border-radius: 3% 50% 3% 50%;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: #bfbfbf;
+    border: 1px solid black;
+    border-radius: 3% 50% 3% 50%;
+    padding: 5px 5px;
+}
+
+a:active {
+    color: #8a8a8a;
+    background-color: #1ed2ff;
+    border: 1px solid black;
+    border-radius: 3% 50% 3% 50%;
+    padding: 5px 5px;
+}
+
+a:hover {
+    color: white;
+    background-color: #595959;
+    border: 1px solid black;
+    border-radius: 3% 50% 3% 50%;
+    padding: 5px 5px;
+}
+
+h1 {
+    font-size: 3em;
+    color: rgba(220, 220, 220, 1);
+    padding: 20% 0 0 20%;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th,td{
+    border-bottom: 2px solid gainsboro;
+    padding: 3px 0;
+}
+
+th {
+    width: 12%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border: 2px solid white;
+    background-color: gainsboro;
+    clear: both;
+    margin: 90% 5% 30%;
+    padding: .5% 5% .5%;
+}
