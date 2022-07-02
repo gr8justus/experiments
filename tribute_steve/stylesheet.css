@@ -13,28 +13,6 @@
     padding: 5px 5px;
 }
 
-/* class selector */
-.font {
-    font: bold 1.7em/1.5 papyrus;
-}
-
-.format{
-    text-transform: uppercase;
-}
-
-.tabrow1 {
-    border-top: 2px solid gainsboro;
-}
-
-.tabrm {
-    border-bottom: none;
-}
-
-.td1 {
-    background-color: rgba(220, 220, 220, .2);
-    font-size: 1em;
-}
-
 /* id selectors */
 #hdisp {
     display: block;
@@ -61,6 +39,28 @@
     margin-top: auto;
     float: right;
     padding-top: 23%;
+}
+
+/* class selector */
+.font {
+    font: bold 1.7em/1.5 papyrus;
+}
+
+.format{
+    text-transform: uppercase;
+}
+
+.tabrow1 {
+    border-top: 2px solid gainsboro;
+}
+
+.tabrm {
+    border-bottom: none;
+}
+
+.td1 {
+    background-color: rgba(220, 220, 220, .2);
+    font-size: 1em;
 }
 
 /* type selectors */
@@ -119,7 +119,7 @@ table {
     border-collapse: collapse;
 }
 
-th,td{
+th,td {
     border-bottom: 2px solid gainsboro;
     padding: 3px 0;
 }
@@ -136,4 +136,90 @@ footer {
     clear: both;
     margin: 90% 5% 30%;
     padding: .5% 5% .5%;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    #hdisp {
+        line-height: 1.3;
+    }
+
+    h1 {
+        margin-top: 25px;
+        margin-bottom: 0%;
+    }
+
+    footer {
+        margin-top: 125%;
+    }
+} 
+
+@media (max-width: 768px) {
+    #hdisp {
+        line-height: 1.3;
+    }
+    
+    #event2 {
+        height: 1210px;
+    }
+
+    header {
+        margin-bottom: 8%;
+    }
+
+    h1 {
+        margin-top: 25px;
+        margin-bottom: 0%;
+    }
+
+    footer {
+        margin-top: 210%;
+    }
+    }
+
+@media (max-width: 480px) {
+    * {
+        width: 100%;
+        line-height: normal;
+        font-size: 1em;
+    }
+
+    #hdisp {
+        line-height: 1.5;
+        font-size: 1em;
+    }
+
+    #event1 {
+        float: none;
+        width: 100%;
+        margin: 5px 0 0;
+        padding: 0;
+    }
+
+    #event2 {
+        float: none;
+        width: 100%;
+        margin:50px 0 0;
+        padding: 0%;
+        height: 100%;
+    }
+
+    .font {
+        font-size: 1em;
+    }
+
+    header {
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0 0;
+    }
+    
+    footer {
+        width: 100%;
+        padding: 0%;
+        margin: 50px 0 150px;
+        font-size: 1em;
+    }
 }
