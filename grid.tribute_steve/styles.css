@@ -1,0 +1,100 @@
+
+/* ==================grid layout=================== */
+#container {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: auto minmax(500 auto) 718px;
+    grid-template-areas: "head head"
+                        "main aside"
+                        "footer footer";
+    grid-gap: 20px;
+}
+
+#history {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#summary {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+header {
+    grid-area: head;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* ===============general selectors================= */
+body {
+    margin: auto;
+    font-size: 1em/1.5;
+}
+
+/* class selectors ============================= */
+.cap {
+    text-transform: uppercase;
+}
+
+.font {
+    font: 2rem "dancing script", cursive;
+}
+
+/* type selectors ============================= */
+header {
+    width: 90%;
+    background: url('whitebg.webp') no-repeat top / 100% 500px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgba(220, 220, 220, 1);
+    margin: 2em 0 0 5em;
+    text-align: left;
+}
+
+span {
+    display: block;
+    margin-top: 16em;
+}
+
+aside {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    margin: 0 100px;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    max-height: 718;
+    margin-top: 5em;
+    padding-bottom: 0;
+}
+
+footer span {
+    display: block;
+    margin-top: 1em;
+}
