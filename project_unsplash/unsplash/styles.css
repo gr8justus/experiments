@@ -30,7 +30,6 @@ input:focus {
     border: 0;
     padding: 5px;
     background-color: transparent;
-    /* fill: grey; */
     cursor: pointer;
 }
 
@@ -38,13 +37,8 @@ input:focus {
     border: 0;
     padding-right: 5px;
     background-color: transparent;
-    /* fill: grey; */
     cursor: pointer;
 }
-
-/* #mglass:hover, #pcscan:hover {
-    fill: black;
-} */
 
 .search {
     display: flex;
@@ -70,7 +64,7 @@ input:focus {
     border: 1px solid grey;
     border-radius: 5px;
     background-color: transparent;
-    fill: grey;
+    color: grey;
     cursor: pointer;
 }
 
@@ -195,7 +189,7 @@ svg:hover {
     fill: white;
 }
 
-/*=============== mansory layout ===========================*/
+/*=============== mansory-like layout ===========================*/
 
 main {
     width: 98%;
@@ -232,4 +226,138 @@ li {
     display: inline-block;
     overflow: hidden;
     margin-right: 10px;
+}
+
+/*=============== media query ===========================*/
+
+@media ( max-width: 1024px ) {
+
+/*=============== navigation layout ===========================*/
+    .search {
+        width: 30%;
+        margin-left: 5px;
+    }
+    
+/*=============== banner layout ===========================*/
+    .bansearch {
+    width: 72%;
+    }
+
+/*=============== mansory-like layout ===========================*/
+    main img {
+        width: 320px;
+    }
+
+    main {
+        margin-left: 10px;
+    }
+}   
+
+@media (max-width: 768px) {
+/*=============== navigation layout ===========================*/
+    .search {
+        width: 18%;
+    }
+
+    #topnav {
+        margin-right: 10px;
+    }
+
+    #submit span {
+        display: none;
+    }
+
+    #submit::after {
+        content: 'Submit';
+    }
+
+    #submit {
+        width: 60px;
+    }
+
+    #edi {
+        width: 7%;        
+    }
+    
+    #navscroll {
+        width: 80%;
+    }
+
+/*=============== banner layout ===========================*/
+    #banbase p:nth-child(2) {
+        display: none;
+    }
+
+    .bansearch {
+        width: 72%;
+    }
+
+/*=============== mansory-like layout ===========================*/
+main img {
+    width: 230px;
+    }
+
+main {
+    margin-left: 8px;
+    }  
+}
+
+@media (max-width: 480px) {
+/*=============== navigation layout ===========================*/
+    #topnav {
+        display: none;
+    }
+
+    #edi {
+        border-right: none;
+    }
+
+/*=============== banner layout ===========================*/
+    .bansearch {
+        display: none;
+    }
+
+    #banner {
+        height: 250px;
+        padding-top: 5em;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+
+    #banmain {
+        margin-left: 2%;
+    }
+
+    .emboss {
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .trending {
+        display: none;
+    }
+
+    #banbase p:first-child {
+        display: none;
+    }
+
+    #banbase {
+        margin: 4em 0 0;
+    }
+
+    svg {
+        width: 145px;
+    }
+
+/*=============== mansory-like layout ===========================*/
+main img {
+    width: 140px;
+    }
+
+main {
+    margin-left: 5px;
+    }
 }

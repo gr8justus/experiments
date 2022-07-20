@@ -7,7 +7,7 @@
         <link rel="icon" type="image/x-image" href="images/favicon.ico" />
         <link rel="stylesheet" href="styles.css" />
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
     </head>
     <body>
         <header>
@@ -32,7 +32,7 @@
                     <li><a href="#join">Sign up</a></li>
                 </ul>
                 <form>
-                    <button type="submit" id="submit">Submit a photo</button>
+                    <button type="submit" id="submit"><span>Submit a photo</span></button>
                 </form>
                 <p>
                     <img id="menu" src="images/menu.png" alt="menu" title="View more links" />
@@ -40,7 +40,7 @@
             </div>
             <div id="subnav">
                 <p id="edi">
-                    <a href="https://unsplash.com/">Editorial</a>
+                    <a href="#unsplash">Editorial</a>
                 </p>
                 <p id="navscroll">
                 <a href="#current-events">Current Events</a>
@@ -81,7 +81,7 @@
                 <input type="text" id="baninsearch" placeholder="Search free high-resolution photos" />
                 <button type="submit" id="pcscan"><img src="images/pcs_scan.svg" style="width: 20px; height: 20px;"></button>
             </form>
-            <p>
+            <p class="trending">
                 Trending: <a href="#flower">flower</a>,
                 <a href="#wallpapers">wallpapers</a>,
                 <a href="#backgrounds">backgrounds</a>,
@@ -112,7 +112,9 @@
         </div>
         <!-- mansory-like layout -->
         <main>
-            <div><img src="images/1.jpg" style="height: 960px;"  title="View the photo by Mike Purrel" /></div>
+            <div>
+                <img src="images/1.jpg" style="height: 960px;"  title="View the photo by Mike Purrel" />
+            </div>
             <div><img src="images/4.jpg" style="height: 960px;" title="View the photo by Flowy Scamber" /></div>
             <div><img src="images/2.jpg" style="height: 427px;" title="View the photo by Samsung Memory" /></div>
             <div><img src="images/5.jpg" style="height: 960px;" title="View the photo by Charles Jaden" /></div>
