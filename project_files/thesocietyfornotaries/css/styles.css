@@ -73,6 +73,11 @@ img {
     margin-left: 8.33333333%;
 }
 
+.rmMargin {
+    margin-left: -.75rem !important;
+    margin-right: -.75rem !important;
+}
+
 .hr {
     font-size: 1.5rem;
     border-bottom: 4px solid #ffb302;
