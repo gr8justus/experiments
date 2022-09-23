@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Aimee",
+    "inoffice": false
+  },
+  {
+    "name": "Amit",
+    "inoffice": true
+  },
+  {
+    "name": "Blessing",
+    "inoffice": true
+  },
+  {
+    "name": "Grace",
+    "inoffice": false
+  },
+  {
+    "name": "Daniel",
+    "inoffice": true
+  },
+  {
+    "name": "Isaac",
+    "inoffice": false
+  },
+  {
+    "name": "Mona",
+    "inoffice": false
+  },
+  {
+    "name": "Stella",
+    "inoffice": true
+  },
+  {
+    "name": "Tony",
+    "inoffice": false
+  },
+  {
+    "name": "Desmond",
+    "inoffice": true
+  } 
+]
