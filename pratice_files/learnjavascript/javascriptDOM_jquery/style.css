@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px groove grey;
+    padding: 2em;
+}
+
+#title {
+    border-bottom: 1px dashed black;
+    font-size: 20px;
+    margin-bottom: .5em;
+}
+
+#head {
+    color: navy;
+}
+
+#toggler {
+    display: block;
+    background-color: navy;
+    border-color: navy;
+    margin-top: 0.3em;
+}
+
+input {
+    height: 2em;
+}
+
+button {
+    color: white;
+    background-color: grey;
+    border-color: grey;
+    padding: .5em;
+    font-size: .8rem;
+}
+
+ul {
+    padding-left: .5em;
+}
+
+li {
+    list-style: none;
+    margin-bottom: .5em;
+    clear: both;
+}
+
+li > button {
+    float: right;
+    margin: .3em;
+}
+
+.up {
+    background-color:crimson;
+    border-color: crimson;
+}
+
+.down {
+    background-color: navy;
+    border-color: navy;
+}
