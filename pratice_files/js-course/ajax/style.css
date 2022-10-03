@@ -1,0 +1,127 @@
+/* ----------- general styles --------------- */
+body {
+    box-sizing: border-box;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 10em;
+}
+
+section {
+    margin-bottom: 5em;
+}
+
+article {
+    margin-bottom: 2em;
+}
+
+ul, li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.captext{
+    text-transform: capitalize;
+}
+/* ----------- general styles ends --------------- */
+
+.layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 2em;
+}
+
+/* ----------- AJAX request styles --------------- */
+.rooms > li {
+    display: inline-block;
+    margin-right: .7em;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
+}
+
+.full {
+    border: 2px solid red;
+    background-color: red;
+    padding: .3em;
+}
+
+.empty {
+    border: 2px solid green;
+    background-color: green;
+    padding: .3em;
+}
+
+.employeeslist > li {
+    margin-bottom: 1em;
+    font: 500 1.1em arial;
+    letter-spacing: .1em;
+}
+
+.in::before {
+    content: 'IN';
+    font-size: 10px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    padding: .3em .7em;
+    margin-right: 2em;
+}
+
+.out::before {
+    content: 'OUT';
+    font-size: 10px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: .3em .1em;
+    margin-right: 2em;
+}
+
+.out {
+    color: gray;
+}
+
+.imgTab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gainsboro;
+    height: 2.5em;
+    border-radius: .5em;
+}
+
+.imgTab button {
+    border: none;
+    font-size: 1em;
+    padding: .5em 7em;
+    background-color: gainsboro;
+}
+
+.imgTab button:hover {
+    border: none;
+    font-size: 1em;
+    padding: .5em 7em;
+    background-color: rgba(5, 231, 175, 0.315);
+    border-radius: .5em;
+}
+
+.imgGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 2em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.imgGrid li {
+    background-color: gainsboro;
+    border-radius: .5em;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ----------- AJAX request styles ends --------------- */

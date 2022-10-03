@@ -1,0 +1,22 @@
+[
+    {
+      "name": "101",
+      "available": false
+    },
+    {
+      "name": "102",
+      "available": true
+    },
+    {
+      "name": "103",
+      "available": true
+    },
+    {
+      "name": "104",
+      "available": false
+    },
+    {
+      "name": "105",
+      "available": true
+    }
+  ]

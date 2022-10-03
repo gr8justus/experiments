@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="jslib.js" async></script>
+        <script src="form.js" async></script>
+    </head>
+    <body>
+        <div class="title">
+            <span class="h1">freeCodeCamp Survey Form</span>
+            <span class="span">Thank you for taking the time to help us improve the platform</span>
+        </div>
+        <div id="review"></div>
+        <div id="survey">
+            <form method="post" action="">
+                <p>
+                    <label for="name">Name</label><br>
+                    <input class="fields spacer" id="name" type="text" placeholder="Enter your name" autocomplete="name" title="Please fill out this field.">
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input class="fields spacer" id="email" type="email" placeholder="Enter your Email" title="Please fill out this field.">
+                </p>
+                <p>
+                    <label for="age">Age (optional)</label><br>
+                    <input class="fields spacer" id="age" type="number" placeholder="Age" min="10" max="99">
+                </p>
+                <p>
+                    <label for="role">Which option best describes your current role?</label><br>
+                    <select class="fields spacer" id="role" title="Please select an item in this list.">
+                        <option class='spacer' selected disabled>Select currrent role</option>
+                        
+                        <option class='spacer' value="Student">Student</option>
+                        
+                        <option class='spacer' value="Full time Job">Full time Job</option>
+                        
+                        <option class='spacer' value="Full time Learner">Full time Learner</option>
+                        
+                        <option class='spacer' value="Prefer not to say">Prefer not to say</option>
+                        
+                        <option class='spacer' value="Other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                    <input class='spacer' id="opt1" name="recommendation" type="radio" value="Definitely" checked>
+                    <label class="spacer" for="opt1">Definitely</label><br>
+                    
+                    <input class='spacer' id="opt2" name="recommendation" type="radio" value="Maybe">
+                    <label for="opt2">Maybe</label><br>
+                    
+                    <input class='spacer' id="opt3" name="recommendation" type="radio" value="Not sure">
+                    <label for="opt3">Not sure</label>
+                </p>
+                <p>
+                    <label class="fields" for="bestFeature">What is your favorite feature of freeCodeCamp?</label><br>
+                    <select class="fields spacer" id="bestFeature" title="Please select an item in this list.">
+                        <option class='spacer' selected disabled>Select an option</option>
+                        
+                        <option class='spacer' value="Challenges">Challenges</option>
+                        
+                        <option class='spacer' value="Projects">Projects</option>
+                        
+                        <option class='spacer' value="Community">Community</option>
+                        
+                        <option class='spacer' value="Open Source">Open Source</option>
+                    </select>
+                </p>
+                <p>
+                    <legend>What would you like to see improved? (Check all that apply)</legend>
+                    <input class='spacer' id="opt1" name="suggestion" type="checkbox" value="Front-end Projects">
+                    <label class="spacer" for="opt1">Front-end Projects</label><br>
+                    
+                    <input class='spacer' id="opt2" name="suggestion" type="checkbox" value="Back-end Projects">
+                    <label for="opt2">Back-end Projects</label><br>
+                    
+                    <input class='spacer' id="opt3" name="suggestion" type="checkbox" value="Data Visualization">
+                    <label for="opt3">Data Visualization</label><br>
+                    
+                    <input class='spacer' id="opt4" name="suggestion" type="checkbox" value="Challenges">
+                    <label for="opt4">Challenges</label><br>
+                    
+                    <input class='spacer' id="opt5" name="suggestion" type="checkbox" value="Open Source Community">
+                    <label for="opt5">Open Source Community</label><br>
+                    
+                    <input class='spacer' id="opt6" name="suggestion" type="checkbox" value="Gitter help rooms">
+                    <label for="opt6">Gitter help rooms</label><br>
+                    
+                    <input class='spacer' id="opt7" name="suggestion" type="checkbox" value="Videos">
+                    <label for="opt7">Videos</label><br>
+                    
+                    <input id="opt8" name="suggestion" type="checkbox" value="City Meetups">
+                    <label for="opt8">City Meetups</label><br>
+
+                    <input class='spacer' id="opt9" name="suggestion" type="checkbox" value="Wiki">
+                    <label for="opt9">Wiki</label><br>
+
+                    <input class='spacer' id="opt10" name="suggestion" type="checkbox" value="Forum">
+                    <label for="opt10">Forum</label><br>
+
+                    <input class='spacer' id="opt11" name="suggestion" type="checkbox" value="Additional Courses">
+                    <label for="opt11">Additional Courses</label>
+                </p>
+                <p>
+                    <label>Any comments or suggestions?</label><br>
+                    <textarea id="textarea" class='spacer' rows="8" placeholder="Enter your comment here..."></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="fields">Submit</button>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

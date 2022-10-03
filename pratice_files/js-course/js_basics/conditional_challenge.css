@@ -1,0 +1,18 @@
+
+h1 {
+    font: 600 3rem palatino linotype;
+    color: firebrick;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: yellowgreen;
+    text-shadow: 3px 3px 5px blueviolet;
+}
+
+h2 {
+    font: 2.5rem helvetica;
+    color: rebeccapurple;
+}
+
+p {
+    font-size: 1.2rem;
+}

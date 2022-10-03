@@ -1,0 +1,43 @@
+input:focus  {
+   border-color: lightskyblue;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.round {
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+input, button {
+    width: 20em;
+    height: 4em;
+    border: 2px solid lightskyblue;
+}
+
+.round, button {
+    border: 2px solid lightskyblue;
+    background-color: lightskyblue;
+    color: white;
+}
+
+input {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    width: 19.5em;
+    text-align: center;
+}

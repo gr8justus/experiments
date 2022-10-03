@@ -1,0 +1,139 @@
+/* --------------- general styles ------------------ */
+body {
+    box-sizing: border-box;
+    background: radial-gradient(#8b4107, transparent 100%),
+            greenyellow url(bg_nature.jpg) no-repeat center / cover;
+                
+    margin: 0 25%;
+}
+/* -------------- general styles ends here ---------------- */
+
+/* --------------- title styles ------------------ */
+.title {
+    font: 100 19.2px cursive;
+    color: goldenrod;
+    text-align: center;
+}
+
+.h1 {
+    display: block;
+    font: 500 35.2px gothic;
+    margin-top: 48px;
+}
+
+.span {
+    font-style: italic;
+    display: inline-block;
+}
+/* --------------- title styles ends here ----------------- */
+
+/* --------------- form styles ------------------ */
+#survey{
+    border: 1px solid rgba(71, 19, 71, 0.5);
+    padding: 24px 48px;
+    background-color: rgba(71, 19, 71, 0.5);
+    color: white;
+    font: 19.2px arial;
+    letter-spacing: 1.5;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+#textarea {
+    width: 96%;
+    height: 112px;
+}
+
+.spacer {
+    margin-top: 8px;
+}
+
+.fields {
+    width: 97%;
+    height: 35.2px;
+    border-radius: 4.8px;
+}
+
+select, input {
+    font: 17.6px arial;
+    letter-spacing: 1.5;
+}
+
+button {
+    color: white;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+/* --------------- form styles ends here ------------------ */
+
+
+/* --------------- media queries ------------------ */
+@media (max-width: 995px) {
+    body {
+        margin: 0 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font: 100 16.2px cursive;
+    }
+    
+    .h1 {
+        font: 500 33.2px gothic;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        margin: 0 12%;
+    }
+
+    #survey{
+        padding: 10px 24px;
+        font: 14px arial;
+        letter-spacing: 1;
+    }
+
+    .fields {
+        height: 20px;
+    }
+
+    select, input {
+        font: 12px arial;
+        letter-spacing: 1;
+    }
+
+    #textarea {
+        height: 50px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    body {
+        margin: 0 10%;
+    }
+
+
+    .title {
+        font: 100 13px cursive;
+    }
+    
+    .h1 {
+        font: 500 22px gothic;
+    }
+
+    #survey{
+        padding: 5px 10px;
+        font: 11px arial;
+        letter-spacing: 1;
+    }
+}
+/* --------------- media queries ends here ------------------ */

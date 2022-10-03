@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript and the DOM</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="title">
+            <h1 id="head">Javascript and the DOM</h1>
+            <p>Making a web page interactive</p>
+        </div>
+        <input type="text" id="myTextInput">
+        <button id="headButton">Change heading color</button>
+        <button id="toggler">Hide list</button>
+        <div id="toggleList">
+            <p id="description">Things that are purple:</p>
+            <input type="text" id="listDescription">
+            <button id="descriptionBtn">Change list description</button>
+            <ul>
+                <li>grapes</li>
+                <li class="oddLot">orange</li>
+                <li>amethys</li>
+                <li class="oddLot">fire truck</li>
+                <li class="oddLot">coal</li>
+                <li>lavender</li>
+                <li>plums</li>
+            </ul>
+            <input type="text" id="addUp" placeholder="add an item to the list">
+            <button id="addUpBtn">Add item</button>
+        </div>
+        
+        <script src="jslib.js"></script>
+        <script src="app$.js"></script>
+    </body>
+</html>
